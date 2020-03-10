@@ -21,5 +21,5 @@ team members and then upload the documents for our
 Deposit website.
 
 We created a mockup of the website:
-Inline-style: 
+ 
 ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/mockup.png "Mockup Everone")
