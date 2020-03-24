@@ -12,10 +12,27 @@
 </head>
 
 <body>
-</body>
+    </body>
+    <div class="div-logo">
+        <img class="logo" src="images/everone-logo.png" alt="Everone Logo">
+    </div>
+    <div class="forms">
+        <div class="form-group">
+          <label for="usr">Name:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div> 
+        <div class="buttons">
+            <button type="button" class="btn btn-primary sign-in">Sign-In</button>
+            <button type="button" class="btn btn-primary register">Register</button>
+        </div>
+    </div>
     <div class="footer">
         </br>
-        <p>Contact</p>
+        <p>info@everone.me</p><p>044 666 69 69</p>
     </div>
 </body>
 </html>
