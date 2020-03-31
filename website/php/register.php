@@ -18,7 +18,7 @@
         <img class="logo" src="../images/everone-logo.png" alt="Everone Logo">
     </div>
     <div class="forms">
-        <form id="form-id" action="login.php" method="post">
+        <form id="form-id" action="register.php" method="post">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" required name="username" id="username" class="form-control" id="username">
@@ -27,11 +27,14 @@
                 <label for="password">Password:</label>
                 <input type="password" required name="password" id="password" class="form-control" id="password">
             </div> 
+            <div class="form-group">
+                <label for="password">Repeat Password:</label>
+                <input type="password" required name="password2" id="password2" class="form-control" id="password2">
+            </div>
             <div class="buttons">
                 <!--<button type="submit" value="Submit" class="btn btn-primary sign-in">Sign-In</button>-->
-                <button type="submit" value="Submit" class="btn btn-primary login">Login</button>
+                <button type="submit" value="Submit" class="btn btn-primary register">Register</button>
             </div>
-        </form>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
         <a class="navbar-brand" href="#">Everone</a>
@@ -51,8 +54,6 @@
         </div>
     </nav>
 </body>
-<script>
-</script>
 </html>
 
 <?php
@@ -60,6 +61,7 @@ if(isset($_REQUEST['username'])){
     /* Attempt MySQL server connection. Assuming you are running MySQL
     server with default setting (user 'root' with no password) */
     $link = mysqli_connect("sql111.epizy.com", "epiz_25434312", "Modul133", "epiz_25434312_users");
+    
     // Check connection
     if($link === false){
         die("ERROR: Could not connect. " . mysqli_connect_error());
@@ -68,22 +70,29 @@ if(isset($_REQUEST['username'])){
     // Escape user inputs for security
     $username = mysqli_real_escape_string($link, $_REQUEST['username']);
     $password = mysqli_real_escape_string($link, $_REQUEST['password']);
-    $hashed_password = openssl_digest($password, 'sha512');
+    $password2 = mysqli_real_escape_string($link, $_REQUEST['password2']);
 
-    $query = "SELECT * FROM users WHERE username='$username' AND password='$hashed_password' LIMIT 1";
+    $query = "SELECT * FROM users WHERE username='$username' LIMIT 1";
     $result = mysqli_query($link, $query);
-    $userdata = mysqli_fetch_assoc($result);
+    $user = mysqli_fetch_assoc($result);
 
-    if ($userdata) {
-        if ($userdata['username'] === $username AND $userdata['password'] === $hashed_password){
-            #HEADER("location:../index.php");
-            echo '<div class="alert alert-success alert-dismissable" id="flash-msg">
-            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-            <h4><i class="icon fa fa-check"></i>Login Successful!</h4>
-            </div>';
+    if ($user) {
+        if ($user['username'] === $username) {
+           #echo "ERROR: Username already exists $sql. " . mysqli_error($link);
         }
     }else{
-        #echo "ERROR: Wrong Credentials";
+        if ("$password" != "$password2"){
+            #echo "ERROR: Passwords do not match $sql. " . mysqli_error($link);
+        } else {
+                $hashed_password = openssl_digest($password, 'sha512');
+                // Attempt insert query execution
+                $sql = "INSERT INTO users (username, password) VALUES ('$username', '$hashed_password')";
+                if(mysqli_query($link, $sql)){
+                    #echo "Records added successfully.";
+                } else{
+                    #echo "ERROR: Execution error $sql. " . mysqli_error($link);
+                }
+        }
     }
 }
 
