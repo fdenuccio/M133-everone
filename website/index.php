@@ -30,9 +30,22 @@
             <button type="button" class="btn btn-primary register">Register</button>
         </div>
     </div>
-    <div class="footer">
-        </br>
-        <p>info@everone.me</p><p>044 666 69 69</p>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <a class="navbar-brand" href="#">Everone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item text-light">
+                info@everone.me </br>
+                +41 79 666 70 70
+            </li>
+            </ul>
+            <span class="navbar-text">
+                <a class="imprint" href="html/imprint.html">Imprint</a>
+            </span>
+        </div>
+    </nav>
 </body>
 </html>
