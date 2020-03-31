@@ -19,7 +19,7 @@
     </div>
     </br>
     <div class="forms">
-        <form action="/login.php" method="get">
+        <form action="./php/login.php" method="get">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" class="form-control" id="usr">
