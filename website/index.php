@@ -19,14 +19,14 @@
     </div>
     </br>
     <div class="forms">
-        <form action="./php/login.php" method="get">
+        <form id="form-id" action="./php/login.php" method="post">
             <div class="form-group">
                 <label for="username">Username:</label>
-                <input type="text" id="username" name="username" class="form-control" id="usr">
+                <input type="text" name="username" id="username" class="form-control" id="username">
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" class="form-control" id="pwd">
+                <input type="password" name="password" id="password" class="form-control" id="password">
             </div> 
             <div class="buttons">
                 <button type="submit" value="Submit" class="btn btn-primary sign-in">Sign-In</button>
