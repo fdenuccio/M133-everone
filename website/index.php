@@ -13,22 +13,25 @@
 
 <body>
     </body>
+    </br>
     <div class="div-logo">
         <img class="logo" src="images/everone-logo.png" alt="Everone Logo">
     </div>
+    </br>
     <div class="forms">
-        <div class="form-group">
-          <label for="usr">Name:</label>
-          <input type="text" class="form-control" id="usr">
-        </div>
-        <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd">
-        </div> 
-        <div class="buttons">
-            <button type="button" class="btn btn-primary sign-in">Sign-In</button>
-            <button type="button" class="btn btn-primary register">Register</button>
-        </div>
+        <form action="/login.php" method="get">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" id="pwd">
+            </div> 
+            <div class="buttons">
+                <button type="submit" value="Submit" class="btn btn-primary sign-in">Sign-In</button>
+                <button type="submit" value="Submit" class="btn btn-primary register">Register</button>
+            </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
         <a class="navbar-brand" href="#">Everone</a>
@@ -38,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
             <li class="nav-item text-light">
-                info@everone.me </br>
+                info@everone.me</br>
                 +41 79 666 70 70
             </li>
             </ul>
