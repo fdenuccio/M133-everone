@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M133 - Everone</title>
 </head>
-
+<?php include 'functions/login_function.php';?>
 <body>
     </body>
     </br>
@@ -20,8 +20,8 @@
     <div class="forms">
         <form id="form-id" action="login.php" method="post">
             <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" required name="username" id="username" class="form-control" id="username">
+                <label for="email">E-Mail:</label>
+                <input type="email" pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+.[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required name="email" id="email" class="form-control" id="email">
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
@@ -31,6 +31,7 @@
                 <!--<button type="submit" value="Submit" class="btn btn-primary sign-in">Sign-In</button>-->
                 <button type="submit" value="Submit" class="btn btn-primary login">Login</button>
             </div>
+            <label><a href="register.php">Create new Account</a></label>
         </form>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
@@ -51,42 +52,4 @@
         </div>
     </nav>
 </body>
-<script>
-</script>
 </html>
-
-<?php
-if(isset($_REQUEST['username'])){
-    /* Attempt MySQL server connection. Assuming you are running MySQL
-    server with default setting (user 'root' with no password) */
-    $link = mysqli_connect("sql111.epizy.com", "epiz_25434312", "Modul133", "epiz_25434312_users");
-    // Check connection
-    if($link === false){
-        die("ERROR: Could not connect. " . mysqli_connect_error());
-    }
-    
-    // Escape user inputs for security
-    $username = mysqli_real_escape_string($link, $_REQUEST['username']);
-    $password = mysqli_real_escape_string($link, $_REQUEST['password']);
-    $hashed_password = openssl_digest($password, 'sha512');
-
-    $query = "SELECT * FROM users WHERE username='$username' AND password='$hashed_password' LIMIT 1";
-    $result = mysqli_query($link, $query);
-    $userdata = mysqli_fetch_assoc($result);
-
-    if ($userdata) {
-        if ($userdata['username'] === $username AND $userdata['password'] === $hashed_password){
-            #HEADER("location:../index.php");
-            echo '<div class="alert alert-success alert-dismissable" id="flash-msg">
-            <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-            <h4><i class="icon fa fa-check"></i>Login Successful!</h4>
-            </div>';
-        }
-    }else{
-        #echo "ERROR: Wrong Credentials";
-    }
-}
-
-// Close connection
-mysqli_close($link);
-?>

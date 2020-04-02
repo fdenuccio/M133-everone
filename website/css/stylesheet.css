@@ -4,39 +4,68 @@
 }
 
 .logo {
-    margin-top: 5%;
     width: 25%;
     height: 25%;
+}
+
+.outer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.alert {
+    position: absolute;
+    overflow: hidden;
+    z-index: 2400;
+    opacity: 0.70;
+    top: 0px !important;
+    margin-bottom: 74%;
+    width: 98%;
+    height: 5%;
+    margin: 1%;
 }
 
 
 /* Large desktop */
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
     .forms {
         margin-left: 30%;
         margin-right: 30%;
         margin-top: 5%;
+    }
+    .scrollable {
+        height: 0%;
+    }
+    .logo {
+        margin-bottom: -5%;
     }
 }
 
 
 /* Portrait tablet to landscape and desktop */
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 812px) and (max-width: 1280px) {
     .forms {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .scrollable {
+        height: 0%;
     }
 }
 
 
 /* Landscape phone to portrait tablet */
 
-@media (max-width: 767px) {
+@media (max-width: 812px) {
     .forms {
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .scrollable {
+        height: 75px;
     }
 }
 

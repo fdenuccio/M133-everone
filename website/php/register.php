@@ -10,10 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M133 - Everone</title>
 </head>
-
+<?php include 'functions/registration_function.php';?>
 <body>
     </body>
-    </br>
     <div class="div-logo">
         <img class="logo" src="../images/everone-logo.png" alt="Everone Logo">
     </div>
@@ -22,6 +21,10 @@
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" required name="username" id="username" class="form-control" id="username">
+            </div>
+            <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="email" pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+.[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required name="email" id="email" class="form-control" id="email">
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
@@ -35,6 +38,9 @@
                 <!--<button type="submit" value="Submit" class="btn btn-primary sign-in">Sign-In</button>-->
                 <button type="submit" value="Submit" class="btn btn-primary register">Register</button>
             </div>
+            <label class="sitelink">Already have an account? <a href="login.php">Log in</a></label>
+        </form>
+        <div class="scrollable"></div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
         <a class="navbar-brand" href="#">Everone</a>
@@ -55,47 +61,3 @@
     </nav>
 </body>
 </html>
-
-<?php
-if(isset($_REQUEST['username'])){
-    /* Attempt MySQL server connection. Assuming you are running MySQL
-    server with default setting (user 'root' with no password) */
-    $link = mysqli_connect("sql111.epizy.com", "epiz_25434312", "Modul133", "epiz_25434312_users");
-    
-    // Check connection
-    if($link === false){
-        die("ERROR: Could not connect. " . mysqli_connect_error());
-    }
-    
-    // Escape user inputs for security
-    $username = mysqli_real_escape_string($link, $_REQUEST['username']);
-    $password = mysqli_real_escape_string($link, $_REQUEST['password']);
-    $password2 = mysqli_real_escape_string($link, $_REQUEST['password2']);
-
-    $query = "SELECT * FROM users WHERE username='$username' LIMIT 1";
-    $result = mysqli_query($link, $query);
-    $user = mysqli_fetch_assoc($result);
-
-    if ($user) {
-        if ($user['username'] === $username) {
-           #echo "ERROR: Username already exists $sql. " . mysqli_error($link);
-        }
-    }else{
-        if ("$password" != "$password2"){
-            #echo "ERROR: Passwords do not match $sql. " . mysqli_error($link);
-        } else {
-                $hashed_password = openssl_digest($password, 'sha512');
-                // Attempt insert query execution
-                $sql = "INSERT INTO users (username, password) VALUES ('$username', '$hashed_password')";
-                if(mysqli_query($link, $sql)){
-                    #echo "Records added successfully.";
-                } else{
-                    #echo "ERROR: Execution error $sql. " . mysqli_error($link);
-                }
-        }
-    }
-}
-
-// Close connection
-mysqli_close($link);
-?>
