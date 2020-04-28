@@ -29,12 +29,10 @@
         </div>
     </nav>
     <center>
-    <img src="/images/everone-logo.png" class="logo"/>
-    <button type="button" id="register" href="php/register.php">Register</button>
+        <img src="/images/everone-logo.png" class="logo"/>
+        <a href="./php/register.php"><button type="button" id="register">Register</button></a>
+        <a href="./php/login.php"><button type="button" id="login">Login</button></a>
     </center>
-
-    <a href="./php/register.php">register</a>
-    <a href="./php/login.php">login</a>
     
     </body>
 </html>
