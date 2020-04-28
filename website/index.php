@@ -30,7 +30,7 @@
     </nav>
     <center>
     <img src="/images/everone-logo.png" class="logo"/>
-    <button type="button" id="register" href="./php/register.php">Register</button>
+    <button type="button" id="register" href="php/register.php">Register</button>
     </center>
 
     <a href="./php/register.php">register</a>
