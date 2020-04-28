@@ -3,7 +3,7 @@
 <a href="./php/login.php">login</a>
 <center>
   // Logo
-<img src="./images/everone-logo.png"/>
+<img src="/images/everone-logo.png"/>
 </center>
   
 ?>
