@@ -10,11 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M133 - Everone</title>
 </head>
-
+<body>
 <center>
   // Logo
 <img src="/images/everone-logo.png"/>
 </center>
 <a href="./php/register.php">register</a>
 <a href="./php/login.php">login</a>
-?>
+    
+    </body>
+</html>
