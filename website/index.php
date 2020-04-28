@@ -30,8 +30,8 @@
     </nav>
     <center>
         <img src="/images/everone-logo.png" class="logo"/>
-        <a href="./php/register.php"><button type="button" id="register">Register</button></a>
-        <a href="./php/login.php"><button type="button" id="login">Login</button></a>
+        <a href="./php/register.php"><button type="btn btn-primary" id="register">Register</button></a>
+        <a href="./php/login.php"><button type="btn btn-primary" id="login">Login</button></a>
     </center>
     
     </body>
