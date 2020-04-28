@@ -11,7 +11,10 @@
     text-align: center;
     margin-right;
 }
-
+.logo-1 {
+    widht: 50%;
+    height: 50%;
+}
 .logo {
     width: 25%;
     height: 25%;
