@@ -30,7 +30,9 @@
     </nav>
     <center>
     <img src="/images/everone-logo.png" class="logo"/>
+    <button type="button" id="register" onclick="window.location.href="./php/register.php">Register</button>
     </center>
+
     <a href="./php/register.php">register</a>
     <a href="./php/login.php">login</a>
     
