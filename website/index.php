@@ -29,7 +29,7 @@
         </div>
     </nav>
     <center>
-    <img src="/images/everone-logo.png"/>
+    <img src="/images/everone-logo.png" class="logo"/>
     </center>
     <a href="./php/register.php">register</a>
     <a href="./php/login.php">login</a>
