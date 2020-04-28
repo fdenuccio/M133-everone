@@ -11,35 +11,6 @@
     <title>M133 - Everone</title>
 </head>
 <body>
-    <div class="div-logo">
-        <img class="logo" src="../images/everone-logo.png" alt="Everone Logo">
-    </div>
-    <div class="forms">
-        <form id="form-id" action="register.php" method="post">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" required name="username" id="username" class="form-control" id="username">
-            </div>
-            <div class="form-group">
-                <label for="email">E-Mail:</label>
-                <input type="email" pattern="[a-zA-Z0-9!#$%&amp;'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)+.[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*" required name="email" id="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" required name="password" id="password" class="form-control" id="password">
-            </div> 
-            <div class="form-group">
-                <label for="password">Repeat Password:</label>
-                <input type="password" required name="password2" id="password2" class="form-control" id="password2">
-            </div>
-            <div class="buttons">
-                <!--<button type="submit" value="Submit" class="btn btn-primary sign-in">Sign-In</button>-->
-                <button type="submit" value="Submit" class="btn btn-primary register">Register</button>
-            </div>
-            <label class="sitelink">Already have an account? <a href="login.php">Log in</a></label>
-        </form>
-        <div class="scrollable"></div>
-    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
         <a class="navbar-brand" href="#">Everone</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +29,6 @@
         </div>
     </nav>
     <center>
-      // Logo
     <img src="/images/everone-logo.png"/>
     </center>
     <a href="./php/register.php">register</a>
