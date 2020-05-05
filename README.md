@@ -99,7 +99,21 @@ With this mockup it was easy for us to get the final design of our webpage.
 | Shall-Value  | Invalid Credentials.                                                 |
 | Is-Value     | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/invalid_credentials.png "Invalid credentials") |
 
-# Reflexion
+| Test Case    | C02 Wrong password when logging in.                                                                              |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Goal         | The user won't be able to log in.                                                                 |
+| Input        | Username: M133 <br/> Password: M122.TBZ <br/> Actual Password: M133.TBZ | 
+| Shall-Value  | Invalid Credentials.                                                 |
+| Is-Value     | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/invalid_credentials.png "Invalid credentials") |
+
+| Test Case    | C03 Session handeling.                                                                              |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Goal         | When logged in, cookies will be created.                                                                 |
+| Input        | Username: M133 <br/> Password: M133.TBZ | 
+| Shall-Value  | user_id, username, email, PHPSESSID                                                 |
+| Is-Value     | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/session_test_case.png "Session Cookies") |
+
+# Reflection
 
 ## Alessio Benintende:
 Dieses Modul war eine gute Gelegenheit, um HTML und PHP wiederaufzufrischen.
