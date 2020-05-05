@@ -86,17 +86,13 @@ With this mockup it was easy for us to get the final design of our webpage.
 # Test Cases
 
 | Test Case    | C01 False data input in register and login form.                                                                              |
-|--------------|-------------------------------------------------------------------------------------------------------------------------------|---|---|---|
+|--------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Goal         | The input is being tested of existing data or wrong passwords.                                                                |
-| Input        | Username: M133 (already in database)  
-		E-Mail: m133@everone.me (already in the database) 
-		Password: M133.TBZ Repated: M122.TBZ | 
-| Shall-Value | E-Mail is already in use. Username is already in use. Passwords do not match.                                                 |
-Is-Value | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/username_already_in_use.png "Username is already in use")
+| Input        | Username: M133 (already in database) <br/> E-Mail: m133@everone.me (already in the database) <br/> Password: M133.TBZ Repated: M122.TBZ | 
+| Shall-Value  | E-Mail is already in use. Username is already in use. Passwords do not match.                                                 |
+| Is-Value     | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/username_already_in_use.png "Username is already in use") <br/> ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/email_already_in_use.png "E-Mail is already in use") <br/> ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/password_dont_match.png "Passwords do not match") |
 
-![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/email_already_in_use.png "E-Mail is already in use")
 
-If your repeated password doesn't match you first password, it will also give you a warning. 
 
-![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/password_dont_match.png "Passwords do not match") |
+
 
