@@ -42,9 +42,38 @@ As you type in http://everone.me you will be redirected to our main page, index.
 From there on you can choose between "Register" or "Login".
 #### Registration
 On the "Register" page you can create an account with information such as your username, e-mail and password. This will send your data to our database.
-We want that the username to be unique, therefor if you enter an already existing user, it will warn you and not let you create a user.
+We want that the username and e-mail to be unique, therefor if you enter an already existing user, it will warn you and not let you create a user. This check is done in our database.
 
-![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/username_already_in_use.png "Username already in use")
+![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/username_already_in_use.png "Username is already in use")
+
+![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/email_already_in_use.png "E-Mail is already in use")
+
+If your repeated password doesn't match you first password, it will also give you a warning. 
+
+![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/password_dont_match.png "Passwords do not match")
+
+However, if everything is fine, the e-mail and username are unique and the passwords match, it will create an entry in our database. For additional security the chosen password by the user is  getting hashed and then being added.
+
+#### Login
+If you already have a user, you can log in with your e-mail and your chosen password.
+The hash value of the password gets created before getting sent to the database. There the two hash values get compared, if they match you will be granted access to your account.
+If the e-mail and the password don't match, it will tell you, that the credentials are invalid.
+
+![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/invalid_credentials.png "Invalid credentials")
+
+## Application Structure
+Our application structure was very easily built. 
+
+**css** All our design layouts are here saved in this folder.
+**html** The very few HTML sites that we had, are in this folder.
+**images** All the images used for our page are located here.
+**js** If we had needed any javascript files, they would've gone in here. However for now it was just a placeholder.
+**php** This is the most important folder with all our PHP pages.
+**First layer** On here is our index page.
+
+![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/application_structure.png "Application Structre")
+
+
 
 At the beginning we split our tasks:
 
