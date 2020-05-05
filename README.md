@@ -42,8 +42,8 @@ As you type in http://everone.me you will be redirected to our main page, index.
 From there on you can choose between "Register" or "Login".
 #### Registration
 On the "Register" page you can create an account with information such as your username, e-mail and password. This will send your data to our database.
-
-
+We want that the username to be unique, therefor if you enter an already existing user, it will warn you and not let you create a user.
+![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/username_already_in_use.png "Username already in use")
 At the beginning we split our tasks:
 
 Create a design: All of us
