@@ -150,3 +150,29 @@ Die Theorieinputs waren zum meistenteil sehr gut und wenn man aufgepasst hat kon
 
 Das Distance-Learning hatte mich positiv beeinflusst und ich konnte besser Arbeiten.
 
+
+
+# Learnings Krasniqi Drilon
+
+## **10.03.2020**
+Zu Beginn haben wir zusammen eine Skizze dargestellt, auf der wir umgefähr sehen können, wie unsere Webpage wird. Dadurch wussten wir dann, wie die Applikationsstruktur aussehen wird und wir erstellten ein Projekt auf Github. Dadurch konnten wir alle gemeinsam darauf arbeiten.
+
+## **17.03.2020**
+Schulausfall wegen Corona.
+
+## **24.03.2020
+Heute haben ich versucht einen Hoster für unsere Webpage herauszusuchen. Ich hate bplace und InfinityFree zur Auswahl und ich habe mich für InfinityFree entschieden. Es hat mehrere positive Bewertungen als die beste Free Hosting Variante. Ich habe danach mich eingelesen und herausgefunden was man alles darauf machen kann.
+
+## **31.03.2020**
+Nachdem ich verstanden habe wie unser Hoster funktioniert, haben Herr DeNuccio und ich uns an die Datenbankanbindung gemacht. Es gab vorerst ein Paar Komplikationen, da man die SQL Datenbank mit speziellen Anmeldeinformationen erreichen kann. Dies konnten wir aber beheben und die Tabellen etc. wurden von mir über das Webinterface gemacht.
+
+## **07.04.2020**
+Heute haben ich meistens am Layout der Webpage gearbeitet und so das Aussehen ein bisschen verändert und angepasst.
+
+## **28.04.2020**
+Unser Hoster war nicht erreichbar heute und die Seite hat nicht richtig geladen. Ich habe mir das angeschaut und beheben können. Zudem hatten wir festgestellt, dass die falschen Files hochgeladen wurden. Dies konnte auch korrigiert werden. Die Seite lief dann wieder normal und war erreichbar.
+
+## **05.05.2020**
+Heute war der letzte Tag des Projektes. Wir haben noch die letzten Arbeiten gemacht und ich habe die Dokumentation fertiggeschrieben. Session-handeling war das letzte, was wir noch machen mussten. Dies hat dann nun funktioniert.
+
+
