@@ -100,4 +100,12 @@ With this mockup it was easy for us to get the final design of our webpage.
 | Is-Value     | |
 
 
+## Reflexion-Alessio:
+Dieses Modul war eine gute Gelegenheit, um HTML und PHP wiederaufzufrischen.
+Es war eine neue und spannende Erfahrung das Modul über Homeschooling durchzuführen.
+Im grossem ganzen war es ganz gemütlich zuhause zu arbeiten, doch das Problem dabei ist, dass man mehr Ablenkung als sonst hat und sich nicht immer gut konzentrieren kann.
+Schlussendlich fand ich das Modul ganz in Ordnung und die Team Arbeit machte mir Spass.
+
+## Reflexion-Drilon:
+Das Modul war im Grossen ganzem relativ in Ordnung. Doch die Anfangsaufgaben fand ich persönlich unnötig. Wir haben damit sehr viel Zeit investiert und hatten somit weniger Zeit für das Projekt selber. Am Schluss bekamen wir relativ grossen Stress das Projekt noch fertig zu stellen. Das allerbeste fand ich von zuhause aus zu arbeiten. Denn ich kann viel länger schlafen als sonst und auch früher Feierabend haben als sonst, so ist es das beste was passiert ist. Die Team Arbeit machte mir Spass und durch das Modul konnte ich alles nochmals neu auffrischen.
 
