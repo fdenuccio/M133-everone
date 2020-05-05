@@ -160,7 +160,7 @@ Zu Beginn haben wir zusammen eine Skizze dargestellt, auf der wir umgefähr sehe
 ## **17.03.2020**
 Schulausfall wegen Corona.
 
-## **24.03.2020
+## **24.03.2020**
 Heute haben ich versucht einen Hoster für unsere Webpage herauszusuchen. Ich hate bplace und InfinityFree zur Auswahl und ich habe mich für InfinityFree entschieden. Es hat mehrere positive Bewertungen als die beste Free Hosting Variante. Ich habe danach mich eingelesen und herausgefunden was man alles darauf machen kann.
 
 ## **31.03.2020**
@@ -174,5 +174,41 @@ Unser Hoster war nicht erreichbar heute und die Seite hat nicht richtig geladen.
 
 ## **05.05.2020**
 Heute war der letzte Tag des Projektes. Wir haben noch die letzten Arbeiten gemacht und ich habe die Dokumentation fertiggeschrieben. Session-handeling war das letzte, was wir noch machen mussten. Dies hat dann nun funktioniert.
+
+# Learnings Benintende Alessio
+
+## **10.03.2020**
+
+Am ersten Tag haben wir die Gruppen gebildet. Ich bin sehr zufrieden mit meiner Gruppe, ausser dass wir eine Person zu viel sind. Aber trotzdem habe ich nichts dagegen. Es wird dann einfach so sein, dass einer nicht richtig etwas zu tun hat. Natürlich wurde ich in meiner Gruppe als Teamleiter erwählt. Ich finde dies sehr weise entschieden von den andern, da ich in meinem Geschäft selbst schon Erfahrungen damit gesammelt habe und daher sehr gut ein Team leiten kann. Den Rest des Tages bekamen wir Inputs und einen Einstieg zum Modul. 
+
+ 
+## **17.03.2020**
+
+Heute war keine Schule wegen Corona. 
+
+## **24.03.2020**
+
+Heute haben wir zuerst ein paar Inputs bekommen. Ich habe ein paar neue Dinge durch die Inputs gelernt, die möglicherweise später wichtig werden. Danach habe ich mich mit meinem Team zusammengesetzt. Heute was die Aufgabe unser Projekt zu bestimmen. Ich habe zuerst versucht ein altes Projekt wieder zum Leben zu erwecken, da wir mit dem vieles bereits abdecken hätten können, doch leider habe ich dies nicht geschafft und wollte keine Zeit mehr dafür verschwenden. Also haben wir uns mögliche Projekte überlegt, womit wir alle Kompetenzen abgleichen können. Als wir unser Projekt entschieden haben, war der Tag auch bereits fertig. 
+
+ 
+## **31.03.2020**
+
+Heute bekamen wir wieder ein paar Inputs. Auch dieses Mal haben wir wieder ein paar wichtige Sachen gelernt. Heute haben wir mit unserem Projekt angefangen. Wir haben die komplette Struktur aufgebaut und aufgezeichnet und noch mit der Dokumentation begonnen. 
+
+ 
+
+## **07.04.2020**
+
+Heute haben wir an unserer Index Seite gearbeitet. Wir haben unser Design erstellt und haben bereits mit dem Cod angefangen. Auch heute bekamen wir ein paar Inputs, die sehr wichtig waren. 
+
+
+## **28.04.2020**
+
+Heute haben wir unsere Login Seite fertiggestellt. Wir haben mit php und MySQL gearbeitet. Heute habe ich eine index Website fertiggestellt. Zusätzlich habe ich noch das Registrieren hinzugefügt. 
+
+## **05.05.2020**
+
+Heute haben wir alles fertiggestellt und noch verbessert. Was noch nicht richtig funktioniert hat, haben wir noch korrigiert. Learnings dokumentiert. 
+
 
 
