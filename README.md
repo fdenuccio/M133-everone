@@ -95,17 +95,44 @@ With this mockup it was easy for us to get the final design of our webpage.
 | Test Case    | C02 Wrong password when logging in.                                                                              |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Goal         | The user won't be able to log in.                                                                 |
-| Input        | Username: M133 <br/> E-Mail: m133@everone.me (already in the database) <br/> Password: M133.TBZ Repated: M122.TBZ | 
-| Shall-Value  | E-Mail is already in use. Username is already in use. Passwords do not match.                                                 |
-| Is-Value     | |
+| Input        | Username: M133 <br/> Password: M122.TBZ <br/> Actual Password: M133.TBZ | 
+| Shall-Value  | Invalid Credentials.                                                 |
+| Is-Value     | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/invalid_credentials.png "Invalid credentials") |
 
+# Reflexion
 
-## Reflexion-Alessio:
+## Alessio Benintende:
 Dieses Modul war eine gute Gelegenheit, um HTML und PHP wiederaufzufrischen.
 Es war eine neue und spannende Erfahrung das Modul über Homeschooling durchzuführen.
 Im grossem ganzen war es ganz gemütlich zuhause zu arbeiten, doch das Problem dabei ist, dass man mehr Ablenkung als sonst hat und sich nicht immer gut konzentrieren kann.
 Schlussendlich fand ich das Modul ganz in Ordnung und die Team Arbeit machte mir Spass.
 
-## Reflexion-Drilon:
-Das Modul war im Grossen ganzem relativ in Ordnung. Doch die Anfangsaufgaben fand ich persönlich unnötig. Wir haben damit sehr viel Zeit investiert und hatten somit weniger Zeit für das Projekt selber. Am Schluss bekamen wir relativ grossen Stress das Projekt noch fertig zu stellen. Das allerbeste fand ich von zuhause aus zu arbeiten. Denn ich kann viel länger schlafen als sonst und auch früher Feierabend haben als sonst, so ist es das beste was passiert ist. Die Team Arbeit machte mir Spass und durch das Modul konnte ich alles nochmals neu auffrischen.
+## Drilon Krasniqi:
+Das Modul war im Grossen und Ganzen zufriedenstellend. Doch die Anfangsaufgaben fand ich persönlich nicht so nötig und sie hätten mit der Projektarbeit ersetzt werden können. Wir haben damit sehr viel Zeit investiert und hatten somit weniger Zeit für das Projekt selber. Am Schluss bekamen wir ein bisschen Stress das Projekt noch fertig zu stellen. Das allerbeste fand ich von Zuhause aus arbeiten zu können. Denn ich kann viel länger schlafen als sonst und auch früher Feierabend haben als sonst und die Motivation ist daher grösser. Ich fand wir waren produktiver Zuhause als in der Schule, da man weniger Pausen etc. macht und nicht andere Mitschüler die einem Ablenken um sich hat. Die Team Arbeit machte mir Spass und durch das Modul konnte ich alles nochmals neu auffrischen.
+
+## Francesco DeNuccio
+
+In diesem Modul hatte ich von unserem Team die meiste Erfahrung, aus diesem Grund haben wir uns dazu entschieden, dass ich den Lead übernehme. Damit ich immer allen von unserem Team alles erklären konnte, was wie funktioniert etc. war es in der Schule optimal. Auch wenn es zu einzelaufgaben kam konnte ich die meistens verständlich für die anderen erklären. Das habe ich bemerkt, da sie mir das als Rückmeldung gaben und das Projekt auch weiter vorankam.
+
+Als wir wegen COVID-19 im Distance-Learning waren, konnte ich die Erklärungen nicht mehr ganz so gut tätigen. Aus diesem Grund fingen wir an ein bisschen hinterher zu sein und gegen Ende hat dies uns unter Druck gesetzt.
+
+Für eine gute Benotung, war es eine Anforderung das Session-Handling zu haben. Ich habe mich bemüht dieses funktionstüchtig aufzubauen. Dies war sehr schwer und da ich Stress ausgesetzt war, hatte ich eine schlechtere Konzentration. Aber mit starkem durchhalte Wille konnte ich einen fortschritt bewirken.
+
+Ich fand das Modul sehr interessant.
+
+Die Anfangsaufgaben waren zu einfach und haben zu viel Zeit in Anspruch genommen.
+
+Die Theorieinputs waren zum Grossteil zu lang. Wir haben die meisten Inputs bis zum Sessionhandling bereits in anderen Modulen besprochen.
+
+Das Distance-Learning hat mir Spass gemacht, ich finde es besser als normale Schule. Ich bin viel konzentrierter als sonst.
+
+## Alexander Schwerzmann
+
+Ich fand das Modul im Prinzip gut. Es war jedoch sehr schwer und ich denke nicht dass es für jede Person einfach war. Ich hatte das Glück und hatte Teamkollegen welche mir alles erklären konnten.
+
+Die Anfangsaufgaben waren für mich gut. Jedoch waren die ersten Aufgaben dann auch wieder einfach für mich.
+
+Die Theorieinputs waren zum meistenteil sehr gut und wenn man aufgepasst hat konnte man viel mitnehmen. Ich würde es hilfreich finden wenn es noch Theorieblätter/Merkblätter gäbe.
+
+Das Distance-Learning hatte mich positiv beeinflusst und ich konnte besser Arbeiten.
 
