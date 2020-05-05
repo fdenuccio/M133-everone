@@ -92,7 +92,12 @@ With this mockup it was easy for us to get the final design of our webpage.
 | Shall-Value  | E-Mail is already in use. Username is already in use. Passwords do not match.                                                 |
 | Is-Value     | ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/username_already_in_use.png "Username is already in use") <br/> ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/email_already_in_use.png "E-Mail is already in use") <br/> ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/password_dont_match.png "Passwords do not match") |
 
-
+| Test Case    | C02 Wrong password when logging in.                                                                              |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Goal         | The user won't be able to log in.                                                                 |
+| Input        | Username: M133 <br/> E-Mail: m133@everone.me (already in the database) <br/> Password: M133.TBZ Repated: M122.TBZ | 
+| Shall-Value  | E-Mail is already in use. Username is already in use. Passwords do not match.                                                 |
+| Is-Value     | |
 
 
 
