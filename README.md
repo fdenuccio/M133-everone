@@ -85,4 +85,10 @@ With this mockup it was easy for us to get the final design of our webpage.
 
 # Test Cases
 
+| Test Case    | C01 False data input in register and login form.                                                                              |   |   |   |
+|--------------|-------------------------------------------------------------------------------------------------------------------------------|---|---|---|
+| Goal         | The input is being tested of existing data or wrong passwords.                                                                |   |   |   |
+| Input        | Username: M133 (already in database)  E-Mail: m133@everone.me (already in the database)  Password: M133.TBZ Repated: M122.TBZ |   |   |   |
+| Shall-Output | E-Mail is already in use. Username is already in use. Passwords do not match.                                                 |   |   |   |
+
 
