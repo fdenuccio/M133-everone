@@ -24,16 +24,24 @@ We created a mockup of the website:
  
 ![alt text](https://github.com/fdenuccio/M133-everone/blob/master/images/mockup.png "Mockup Everone")
 
-#Documentation
-##Archtecture
+# Documentation
+## Archtecture
 Our web page is simply built and consists of three layers:
 Presentation layer that includes HTML and CSS.
 Backend layer that includes PHP.
 Data layer where we used a MySQL database.
 
-##Technology
+## Technology
 As previously mentioned we are using PHP which is easy to use and learn.
 There have been many web pages that have used PHP.. However, it is slowly dying out and being replaced by C#, Javascript, Python etc.
+One of the other reasons why we used PHP is that the teacher is familiar with the technology and could help us, if there was any need of it.
+
+## Application design
+### Flow
+As you type in http://everone.me you will be redirected to our main page, index.php.
+From there on you can choose between "Register" or "Login".
+#### Registration
+On the "Register" page you can create an account with information such as your username, e-mail and password. This will send your data to our database.
 
 
 At the beginning we split our tasks:
